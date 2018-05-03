@@ -68,6 +68,15 @@
                                 </button>
                             </div>
                         </div>
+
+                         <!-- <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                               <div class="jumbotron">
+                                   <h3 class="text-center">Google Sign in with Laravel</h3><br>
+                                   <a href="/login" style="margin: auto; display: block; font-size: 20px;" class="btn btn-link">Click here to Login</a>
+                               </div>
+                            </div>
+                        </div> -->
                     </form>
                 </div>
             </div>
