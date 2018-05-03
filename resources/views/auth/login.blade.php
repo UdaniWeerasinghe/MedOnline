@@ -52,21 +52,12 @@
                         <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    Login
+                                    Sign in
                                 </button>
-
+                                <a href="/login/google"><img src="http://www.setyourowntests.com/_/rsrc/1468869481521/help/accounts/btn_google_signin_dark_normal_web%402x.png" style="width: 190px; height: 42px;"></a>
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary btn-md" style="margin-left: 0px;">
-                                    SIGN IN
-                                </button>
-                                <a href="/login/google"><img src="http://www.setyourowntests.com/_/rsrc/1468869481521/help/accounts/btn_google_signin_dark_normal_web%402x.png" style="width: 190px; height: 42px;"></a>
                             </div>
                         </div>
                     </form>
