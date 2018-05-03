@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('googlesign', function () {
+    return view('/auth/googlesign');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
