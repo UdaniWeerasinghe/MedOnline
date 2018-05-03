@@ -22,3 +22,6 @@ Route::get('googlesign', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('login/google', 'Auth\LoginController@redirectToGoogleProvider')->name('glogin');
+Route::get('login/google/callback', 'Auth\LoginController@handleGoogleProviderCallback')->name('gcallback');
