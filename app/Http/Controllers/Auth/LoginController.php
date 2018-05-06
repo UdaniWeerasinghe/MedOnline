@@ -53,7 +53,7 @@ class LoginController extends Controller
     public function handleGoogleProviderCallback()
     {
         try{
-            $user = Socialite::driver('google')->user();
+            $user = Socialite::with('google')->user();
         }catch (Exception $e) {
             return redirect('login/google');
         }
