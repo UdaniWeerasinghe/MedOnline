@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace MedOnline\Http\Controllers\Auth;
 
-use App\User;
+use MedOnline\User;
 use Socialite;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\Controller;
+use MedOnline\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
